@@ -1,0 +1,127 @@
+@import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Galmuri9';
+}
+
+ul {
+    list-style: none;
+
+}
+
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+.game_title {
+    width: 600px;
+    height: 30px;
+    text-align: center;
+    font-size: larger;
+    font-weight: 1000;
+    padding: 15px;
+    border-top: 3px solid salmon;
+    border-bottom: 3px solid #16a;
+    border-left: 3px solid #8e44ad;
+    border-right: 3px solid #67c23a;
+    
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+.game_start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    left: 0;
+    top: 0;
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.game_start > button {
+    padding: 5px 10px;
+    color: white;
+    background: cadetblue;
+    border: none;
+    cursor: pointer;
+}
+
+.game_txt {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    left: 0;
+    top: 0;
+    color: white;
+    font-size: 50px;
+    font-weight: 1000;
+}
+
+.game_txt > button {
+    padding: 5px 10px;
+    color: white;
+    background: cadetblue;
+    border: none;
+    cursor: pointer;
+}
+
+.score {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 2rem;
+}
+
+.playground > ul{
+    border: 1px solid #333;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.playground > ul > li {
+    width: 100%;
+    height: 25px;
+}
+
+.playground > ul > li > ul {
+    display: flex;
+}
+
+.playground > ul > li > ul > li {
+    width: 25px;
+    height: 25px;
+    outline: 1px solid #ccc;
+}
+
+/* 블록모양에 따른 색상 지정하기 */
+.tree {
+    background: #67c23a;
+}
+.square {
+    background: #16a;
+}
+.bar {
+    background: salmon;
+}
+.zee {
+    background: #e6a23c;
+}
+.elLeft {
+    background: #8e44ad;
+}
+.elRight {
+    background: #16a085;
+}
